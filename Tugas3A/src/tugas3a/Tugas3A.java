@@ -1,14 +1,10 @@
-package ifelse;
-
-/*
-Tugas Praktikum 3 modul hal 26 bagian a.
-*/
+package tugas3a;
+//Tugas Praktikum 3 modul hal 26 bagian a.
+//20200801076 - Enggar Lanang Nandhito Agil Ghibran 
 import java.util.Scanner;
-public class ifelse {
+public class Tugas3A {
 
-    
-    public static void main(String args[]) {
-    
+    public static void main(String[] args) {
         int nilai;
         Scanner input = new Scanner(System.in);
         
@@ -33,8 +29,5 @@ public class ifelse {
         else {
             System.out.println("Maaf, format nilai tidak sesuai");
         }
-    
-  }
+    }  
 }
-
-
